@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Elysian Atelier | Contact & Inquiries</title>
+  <!-- Google Fonts + Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,200;14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="contact-style.css">
+</head>
+<body>
+  <div class="bg-aura"></div>
+  <div class="particles-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar glass-nav">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html" class="logo-link">
+          <span class="logo-icon">✦</span> ELYSIAN
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-item">HOME</a></li>
+        <li><a href="index.html#work" class="nav-item">WORK</a></li>
+        <li><a href="index.html#expertise" class="nav-item">EXPERTISE</a></li>
+        <li><a href="contact.html" class="nav-item active">CONTACT</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#consultation" class="btn-outline-light">Start Project <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="contact-hero">
+      <div class="container">
+        <div class="hero-badge">
+          <i class="fas fa-handshake"></i> LET'S CREATE LEGACY
+        </div>
+        <h1 class="hero-title">Elevate Your <span class="accent">Vision</span></h1>
+        <p class="hero-subtitle">Whether you're launching a luxury brand, scaling a digital empire, or seeking a creative partner — your next masterpiece begins here.</p>
+      </div>
+    </section>
+
+    <!-- Main Contact Section - Split Layout -->
+    <section class="main-contact">
+      <div class="container contact-wrapper">
+        <!-- Left Side: Contact Info & Availability -->
+        <div class="contact-info-panel glass-card">
+          <div class="info-header">
+            <i class="fas fa-crown"></i>
+            <h2>Exclusive Partnerships</h2>
+            <p>Limited availability for Q2 2025 — secure your discovery call.</p>
+          </div>
+
+          <div class="contact-methods">
+            <div class="method-card">
+              <div class="method-icon"><i class="fas fa-envelope"></i></div>
+              <div class="method-details">
+                <h4>Email Concierge</h4>
+                <a href="mailto:elevate@elysianatelier.com">elevate@elysianatelier.com</a>
+                <span>Response within 12 hours</span>
+              </div>
+            </div>
+
+            <div class="method-card">
+              <div class="method-icon"><i class="fas fa-phone-alt"></i></div>
+              <div class="method-details">
+                <h4>Priority Line</h4>
+                <a href="tel:+18334729964">+1 (833) 472-9964</a>
+                <span>Mon-Fri: 9AM - 7PM EST</span>
+              </div>
+            </div>
+
+            <div class="method-card">
+              <div class="method-icon"><i class="fab fa-whatsapp"></i></div>
+              <div class="method-details">
+                <h4>WhatsApp Concierge</h4>
+                <a href="https://wa.me/18334729964">+1 (833) 472-9964</a>
+                <span>Global, 24/7 for VIP clients</span>
+              </div>
+            </div>
+
+            <div class="method-card">
+              <div class="method-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="method-details">
+                <h4>Studio Atelier</h4>
+                <span>New York | London | Dubai</span>
+                <span>By appointment only</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="availability-badge">
+            <i class="fas fa-clock"></i> Current Availability: <strong>2 slots remaining</strong> for March 2026
+          </div>
+
+          <div class="social-luxury">
+            <span>Follow the journey:</span>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-behance"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Extravagant Form -->
+        <div class="contact-form-panel glass-card" id="consultation">
+          <div class="form-header">
+            <h2>Inquire About <span class="accent">Collaboration</span></h2>
+            <p>Tell us about your vision — we'll respond with a bespoke proposal.</p>
+          </div>
+
+          <form class="luxury-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label><i class="fas fa-user"></i> Full Name *</label>
+                <input type="text" id="name" placeholder="e.g., Isabella Laurent" required>
+              </div>
+              <div class="form-group">
+                <label><i class="fas fa-building"></i> Company / Brand</label>
+                <input type="text" id="company" placeholder="Your brand name (optional)">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label><i class="fas fa-envelope"></i> Email Address *</label>
+                <input type="email" id="email" placeholder="hello@luxurystudio.com" required>
+              </div>
+              <div class="form-group">
+                <label><i class="fas fa-phone"></i> Phone Number</label>
+                <input type="tel" id="phone" placeholder="+1 (___)" >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label><i class="fas fa-tasks"></i> Project Type *</label>
+              <select id="projectType" required>
+                <option value="" disabled selected>Select service category</option>
+                <option value="web">High-End Web Development</option>
+                <option value="brand">Luxury Brand Identity</option>
+                <option value="creative">Creative Direction & Strategy</option>
+                <option value="immersive">Immersive / AR Experiences</option>
+                <option value="consulting">Executive Consulting</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label><i class="fas fa-chart-line"></i> Estimated Budget Range *</label>
+              <select id="budget" required>
+                <option value="" disabled selected>Select budget range</option>
+                <option value="10k-25k">$10,000 - $25,000</option>
+                <option value="25k-50k">$25,000 - $50,000</option>
+                <option value="50k-100k">$50,000 - $100,000</option>
+                <option value="100k+">$100,000+ (Enterprise / VIP)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label><i class="fas fa-comment-dots"></i> Tell Us About Your Vision *</label>
+              <textarea id="message" rows="5" placeholder="Describe your project goals, timeline, and what makes your brand unique... We're listening." required></textarea>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="newsletter">
+              <label for="newsletter">Subscribe to exclusive insights & design inspiration (no spam, only elegance)</label>
+            </div>
+
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <span class="btn-text">Send Vision Brief</span>
+              <i class="fas fa-feather-alt"></i>
+            </button>
+            <p class="form-note">* All inquiries are treated with absolute confidentiality. We'll respond within 24 business hours.</p>
+          </form>
+
+          <div id="successMessage" class="success-message" style="display: none;">
+            <i class="fas fa-check-circle"></i>
+            <h3>Vision Received ✦</h3>
+            <p>Your inquiry has been elevated to our concierge team. We'll craft a response shortly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">CLARITY & TRANSPARENCY</span>
+          <h2>Frequently Asked <span class="accent">Questions</span></h2>
+        </div>
+        <div class="faq-grid">
+          <div class="faq-item glass-card">
+            <div class="faq-question">
+              <i class="fas fa-question-circle"></i>
+              <h3>What is your typical project timeline?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Depending on scope, standard projects range from 4 to 12 weeks. Enterprise solutions may extend to 16+ weeks for maximum impact and precision.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card">
+            <div class="faq-question">
+              <i class="fas fa-question-circle"></i>
+              <h3>Do you work with international clients?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Absolutely. We collaborate with visionary brands across North America, Europe, Asia, and the Middle East. Virtual white-glove service included.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card">
+            <div class="faq-question">
+              <i class="fas fa-question-circle"></i>
+              <h3>What makes your approach different?</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>We blend strategic business insight with avant-garde artistry. Every project is a bespoke journey, not a template — delivering legacy-grade digital assets.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map / Studio Presence -->
+    <section class="studio-presence">
+      <div class="container">
+        <div class="presence-card glass-card">
+          <div class="presence-content">
+            <i class="fas fa-globe-americas"></i>
+            <h3>Global Creative Network</h3>
+            <p>Headquarters in New York, with creative hubs in London and Dubai. Available for worldwide retreats and exclusive brand residencies.</p>
+            <div class="flags">
+              <span>🇺🇸 NYC</span>
+              <span>🇬🇧 LDN</span>
+              <span>🇦🇪 DXB</span>
+            </div>
+          </div>
+          <div class="presence-map">
+            <div class="map-dot nyc"></div>
+            <div class="map-dot ldn"></div>
+            <div class="map-dot dxb"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <div class="logo-footer">✦ ELYSIAN ATELIER</div>
+          <p>Where vision meets velocity.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="index.html#work">Portfolio</a>
+          <a href="index.html#expertise">Expertise</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-behance"></i></a>
+          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="copyright">© 2025 Elysian Atelier — Crafting Digital Legacy</div>
+    </footer>
+  </main>
+
+  <script>
+    // Simple interactive FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        const faqItem = question.closest('.faq-item');
+        faqItem.classList.toggle('active');
+      });
+    });
+
+    // Form submission with elegant feedback
+    const form = document.getElementById('contactForm');
+    const successMsg = document.getElementById('successMessage');
+    const submitBtn = document.getElementById('submitBtn');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      // Basic validation
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const projectType = document.getElementById('projectType').value;
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !projectType || !message) {
+        alert('Please fill in all required fields (*).');
+        return;
+      }
+
+      if (!email.includes('@')) {
+        alert('Please enter a valid email address.');
+        return;
+      }
+
+      // Simulate submission (replace with actual backend)
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="btn-text">Sending Vision...</span><i class="fas fa-spinner fa-pulse"></i>';
+      
+      // Simulate API call delay
+      setTimeout(() => {
+        form.style.display = 'none';
+        successMsg.style.display = 'block';
+        // Scroll to success message
+        successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 1500);
+      
+      // In a real scenario, you would send data to a server endpoint here
+      // Example: fetch('/api/contact', { method: 'POST', body: new FormData(form) })
+    });
+  </script>
+</body>
+</html>
